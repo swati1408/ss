@@ -19,7 +19,14 @@ const gameName = new String('swati')
 
 //console.log(gameName.substring(0,4));
 
-const newString = gameName.slice(-8,4)
-console.log(newString);
+//const newString = gameName.slice(-8,4)
+//console.log(newString);
 
-const url = "https:"
+const url = "https://swati.com/swati"
+
+console.log(url.replace('%20', '-'));
+
+console.log(url.includes('sundar'));
+
+
+
